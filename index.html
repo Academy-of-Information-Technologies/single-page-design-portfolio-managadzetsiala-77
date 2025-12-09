@@ -1,45 +1,209 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Single-page design portfolio</title>
-</head>
-<body>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./src/output.css" />
 
-  Free Consultation
+    <title>Single-page design portfolio</title>
+  </head>
+  <body
+    class="max-w-screen flex flex-col items-center px-4 pt-[18px] bg-[#FFF7F0] lg:px-[165px] lg:pt-[38px]"
+  >
+    <header class="flex items-center gap-[119px] lg:w-full lg:justify-between">
+      <img class="w-12 lg:w-16" src="./assets/logo.svg" alt="" />
+      <button
+        class="bg-[#030303] text-white text-[14px] font-bold leading-7 rounded-[28px] px-7 py-2 lg:px-[45px] lg:py-4"
+      >
+        Free Consultation
+      </button>
+    </header>
+    <div
+      class="flex flex-col text-center mt-[34px] lg:mt-[84px] lg:w-full lg:items-center"
+    >
+      <h2 class="text-[36px] text-[#030303] font-bold lg:text-[56px]">
+        Design solutions made easy
+      </h2>
+      <p
+        class="text-4 text-[#7A746E] font-medium leading-[26px] lg:text-[18px] lg:leading-7 lg:w-[730px]"
+      >
+        With over ten years of experience in various design disciplines, I’m
+        your one-stop shop for your design needs.
+      </p>
+    </div>
+    <section class="flex flex-col gap-[25px] mt-8 lg:flex-row">
+      <div
+        class="min-h-[364px] bg-[#755CDE] rounded-[9px] p-6 flex flex-col items-end-safe relative lg:w-[354px]"
+      >
+        <img class="w-32" src="./assets/pattern-graphic-design.svg" alt="" />
+        <h3
+          class="text-[24px] text-white font-bold absolute left-[15px] bottom-6"
+        >
+          Graphic Design
+        </h3>
+      </div>
+      <div class="flex flex-col gap-[25px]">
+        <div class="flex gap-6">
+          <div
+            class="min-h-[182px] w-[159px] bg-[#F6A560] rounded-[9px] p-6 flex flex-col items-end-safe relative lg:w-[164px]"
+          >
+            <img class="w-16" src="./assets/pattern-ui-ux.svg" alt="" />
+            <h3
+              class="text-[24px] text-white font-bold absolute left-[15px] bottom-6"
+            >
+              UI/UX
+            </h3>
+          </div>
+          <div
+            class="min-h-[182px] w-[159px] bg-[#F39E9E] rounded-[9px] p-6 flex flex-col items-end-safe relative lg:w-[164px]"
+          >
+            <img class="w-16" src="./assets/pattern-apps.svg" alt="" />
+            <h3
+              class="text-[24px] text-white font-bold absolute left-[15px] bottom-6"
+            >
+              Apps
+            </h3>
+          </div>
+        </div>
+        <div
+          class="min-h-[158px] w-[343px] bg-[#EB7565] rounded-[9px] p-6 flex flex-col items-end-safe relative lg:w-[354px]"
+        >
+          <img class="w-32" src="./assets/pattern-illustrations.svg" alt="" />
+          <h3
+            class="text-[24px] text-white font-bold absolute left-[15px] bottom-6"
+          >
+            Illustrations
+          </h3>
+        </div>
+      </div>
+      <section class="flex flex-col gap-6">
+        <div
+          class="min-h-[182px] w-[343px] bg-[#61C4B7] rounded-[9px] p-6 flex flex-col items-end-safe relative lg:w-[354px]"
+        >
+          <img class="w-32" src="./assets/pattern-photography.svg" alt="" />
+          <h3
+            class="text-[24px] text-white font-bold absolute left-[15px] bottom-6"
+          >
+            Photography
+          </h3>
+        </div>
+        <div
+          class="min-h-[182px] w-[343px] bg-[#552049] rounded-[9px] p-6 flex flex-col items-end-safe relative lg:w-[354px] lg:min-h-[158px]"
+        >
+          <img class="w-32" src="./assets/pattern-motion-graphics.svg" alt="" />
+          <h3
+            class="text-[24px] text-white font-bold absolute left-[15px] bottom-6"
+          >
+            Motion Graphics
+          </h3>
+        </div>
+      </section>
+    </section>
+    <section
+      class="flex flex-col mt-[100px] items-center gap-10 lg:flex-row lg:gap-[125px]"
+    >
+      <img
+        class="w-[300px] h-[300px] lg:w-[425px] lg:h-[425px]"
+        src="./assets/image-amy.webp"
+        alt=""
+      />
 
-  Design solutions made easy
+      <div
+        class="flex flex-col items-center text-center gap-6 lg:gap-8 lg:items-start lg:text-start"
+      >
+        <h2 class="text-[26px] text-[#030303] font-bold lg:text-[40px]">
+          I’m Amy, and I’d love to work on your next project
+        </h2>
+        <p
+          class="text-[16px] text-[#7A746E] font-medium leading-[26px] lg:text-[18px] lg:leading-7"
+        >
+          I love working with others to create beautiful design solutions. I’ve
+          designed everything from brand illustrations to complete mobile apps.
+          I’m also handy with a camera!
+        </p>
+        <button
+          class="w-44 bg-[#EB7565] text-white text-[14px] font-bold leading-7 rounded-[28px] px-7 py-2 lg:text-[16px] lg:px-[45px] lg:py-4 lg:w-[228px]"
+        >
+          Free Consultation
+        </button>
+      </div>
+    </section>
+    <section
+      class="w-[343px] flex flex-col gap-8 mt-[108px] lg:w-[1440px] lg:gap-[58px] lg:items-center lg:relative"
+    >
+      <h3 class="text-[24px] text-[#030303] font-bold text-center lg:text-8">
+        My Work
+      </h3>
+      <div
+        class="flex justify-center gap-[15px] overflow-x-hidden lg:gap-[30px]"
+      >
+        <img
+          class="w-[270px] lg:w-[540px]"
+          src="./assets/image-slide-2.jpg"
+          alt=""
+        />
+        <img
+          class="w-[270px] lg:w-[540px]"
+          src="./assets/image-slide-3.jpg"
+          alt=""
+        />
+        <img
+          class="w-[270px] lg:w-[540px]"
+          src="./assets/image-slide-4.jpg"
+          alt=""
+        />
+      </div>
+      <div class="w-[343px] flex gap-4 justify-center">
+        <img
+          class="w-16 bg-[#030303] rounded-[50%] p-6"
+          src="./assets/icon-arrow-left.svg"
+          alt=""
+        />
+        <img
+          class="w-16 bg-[#030303] rounded-[50%] p-6"
+          src="./assets/icon-arrow-right.svg"
+          alt=""
+        />
+      </div>
+    </section>
+    <div
+      class="w-[343px] flex flex-col items-center text-center gap-6 px-6 py-8 mt-[100px] bg-[#030303] lg:w-[1110px] lg:min-h-80 lg:flex-row lg:justify-around"
+    >
+      <div class="flex flex-col gap-[26px] lg:text-start">
+        <h2 class="text-[26px] text-white font-bold lg:text-[40px]">
+          Book a call with me
+        </h2>
+        <p
+          class="w-[295px] text-[16px] text-[#FFF7F0] font-medium leading-[26px] lg:w-[540px] lg:text-[18px]"
+        >
+          I love working with others to create beautiful design solutions. I’ve
+          designed everything from brand illustrations to complete mobile apps.
+          I’m also handy with a camera!
+        </p>
+      </div>
 
-  With over ten years of experience in various design disciplines, I’m your one-stop shop for your design needs.
-
-  Graphic Design
-  UI/UX
-  Apps
-  Photography
-  Illustrations
-  Motion Graphics
-
-  I’m Amy, and I’d love to work on your next project
-
-  I love working with others to create beautiful design solutions. I’ve designed everything from brand illustrations 
-  to complete mobile apps. I’m also handy with a camera!
-
-  Free Consultation
-
-  My Work
-
-  Book a call with me
-
-  I’d love to have a chat to see how I can help you. The best first step is for us to discuss your project during a 
-  free consultation. Then we can move forward from there.
-
-  Free Consultation
-
-  Free Consultation
-
-</body>
+      <button
+        class="w-44 bg-[#EB7565] text-white text-[14px] font-bold leading-7 rounded-[28px] px-7 py-2"
+      >
+        Free Consultation
+      </button>
+    </div>
+    <footer
+      class="flex items-center gap-[119px] py-8 lg:w-full lg:justify-between lg:mt-14 lg:mb-[58px]"
+    >
+      <img class="w-12 lg:w-16" src="./assets/logo.svg" alt="" />
+      <button
+        class="bg-[#030303] text-white text-[14px] font-bold leading-7 rounded-[28px] px-7 py-2 lg:px-[45px] lg:py-4"
+      >
+        Free Consultation
+      </button>
+    </footer>
+  </body>
 </html>
